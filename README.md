@@ -13,9 +13,16 @@
 7. [Game Control](#game-control)
 
 ## how to run
-In order to run the game you need to download the game framework love2d from the website love2d.org
+In order to run the game you need to download the game framework love2d from [their website](love2d.org) <br/>
+Or by running the following command if you are using a linux system.
+```bash
+   sudo apt install love
+```
 downloading the file super-mario-bros.love is the only one necessary which contains the code source compressed, the other files contains the code source for reviewing purpose, starting with main.lua .
-run the downloaded file using the game framework previously downloaded, and then enjoy the game.
+run the downloaded file using the game framework previously downloaded, by running the following command from the terminal:
+```bash
+   love Super-Mario-Bros.love
+```
 
 ## Game mechanics
 The implementation of this game make use of several design pattern to solve the encountered problems, notably the **State Pattern**. <br/>
